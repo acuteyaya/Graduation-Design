@@ -1,0 +1,2398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1446</width>
+    <height>786</height>
+   </rect>
+  </property>
+  <property name="palette">
+   <palette>
+    <active>
+     <colorrole role="WindowText">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="1.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>240</red>
+          <green>248</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="1.000000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>182</green>
+          <blue>193</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="1.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>240</red>
+          <green>248</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="1.000000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>182</green>
+          <blue>193</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="1.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>240</red>
+          <green>248</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="1.000000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>182</green>
+          <blue>193</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+    </active>
+    <inactive>
+     <colorrole role="WindowText">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="1.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>240</red>
+          <green>248</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="1.000000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>182</green>
+          <blue>193</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="1.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>240</red>
+          <green>248</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="1.000000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>182</green>
+          <blue>193</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="1.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>240</red>
+          <green>248</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="1.000000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>182</green>
+          <blue>193</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+    </inactive>
+    <disabled>
+     <colorrole role="WindowText">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Button">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="1.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>240</red>
+          <green>248</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="1.000000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>182</green>
+          <blue>193</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Text">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="ButtonText">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Base">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="1.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>240</red>
+          <green>248</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="1.000000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>182</green>
+          <blue>193</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="Window">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="0.000000000000000" endx="1.000000000000000" endy="1.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>240</red>
+          <green>248</green>
+          <blue>255</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="1.000000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>182</green>
+          <blue>193</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+     <colorrole role="PlaceholderText">
+      <brush brushstyle="LinearGradientPattern">
+       <gradient startx="0.000000000000000" starty="1.000000000000000" endx="0.000000000000000" endy="0.000000000000000" type="LinearGradient" spread="PadSpread" coordinatemode="ObjectBoundingMode">
+        <gradientstop position="0.000000000000000">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.050000000000000">
+         <color alpha="255">
+          <red>14</red>
+          <green>8</green>
+          <blue>73</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.360000000000000">
+         <color alpha="255">
+          <red>28</red>
+          <green>17</green>
+          <blue>145</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.600000000000000">
+         <color alpha="255">
+          <red>126</red>
+          <green>14</green>
+          <blue>81</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.750000000000000">
+         <color alpha="255">
+          <red>234</red>
+          <green>11</green>
+          <blue>11</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.790000000000000">
+         <color alpha="255">
+          <red>244</red>
+          <green>70</green>
+          <blue>5</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.860000000000000">
+         <color alpha="255">
+          <red>255</red>
+          <green>136</green>
+          <blue>0</blue>
+         </color>
+        </gradientstop>
+        <gradientstop position="0.935000000000000">
+         <color alpha="255">
+          <red>239</red>
+          <green>236</green>
+          <blue>55</blue>
+         </color>
+        </gradientstop>
+       </gradient>
+      </brush>
+     </colorrole>
+    </disabled>
+   </palette>
+  </property>
+  <property name="font">
+   <font>
+    <family>Adobe 楷体 Std R</family>
+    <pointsize>9</pointsize>
+    <italic>false</italic>
+    <bold>false</bold>
+    <strikeout>false</strikeout>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+color:qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 rgba(0, 0, 0, 255), stop:0.05 rgba(14, 8, 73, 255), stop:0.36 rgba(28, 17, 145, 255), stop:0.6 rgba(126, 14, 81, 255), stop:0.75 rgba(234, 11, 11, 255), stop:0.79 rgba(244, 70, 5, 255), stop:0.86 rgba(255, 136, 0, 255), stop:0.935 rgba(239, 236, 55, 255));
+font: 9pt &quot;Adobe 楷体 Std R&quot;;
+border-color: rgb(255, 255, 255);
+gridline-color: rgb(255, 255, 255);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QGroupBox" name="groupBox">
+     <property name="minimumSize">
+      <size>
+       <width>1428</width>
+       <height>768</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>1428</width>
+       <height>768</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 9pt &quot;Adobe 楷体 Std R&quot;;
+font-color: rgb(255, 255, 255);
+border-color: rgb(255, 255, 255);
+qproperty-alignment:132;
+gridline-color: rgb(255, 255, 255);
+</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <property name="flat">
+      <bool>true</bool>
+     </property>
+     <property name="checkable">
+      <bool>false</bool>
+     </property>
+     <layout class="QGridLayout" name="gridLayout">
+      <item row="1" column="0">
+       <layout class="QHBoxLayout" name="horizontalLayout_7">
+        <item>
+         <widget class="QGroupBox" name="groupBox_6">
+          <property name="minimumSize">
+           <size>
+            <width>500</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>500</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-Size:20px;</string>
+          </property>
+          <property name="title">
+           <string>输入模式</string>
+          </property>
+          <layout class="QVBoxLayout" name="verticalLayout_7">
+           <item>
+            <widget class="QLabel" name="img">
+             <property name="minimumSize">
+              <size>
+               <width>500</width>
+               <height>400</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>500</width>
+               <height>400</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string>background-color:transparent;
+font-size:16px;
+</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:transparent;
+font-size:16px;
+</string>
+             </property>
+             <property name="text">
+              <string>INPUT</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupya">
+             <property name="title">
+              <string/>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_5">
+              <item>
+               <widget class="QGroupBox" name="groupBox_5">
+                <property name="minimumSize">
+                 <size>
+                  <width>500</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>500</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font-Size:18px;</string>
+                </property>
+                <property name="title">
+                 <string/>
+                </property>
+                <layout class="QHBoxLayout" name="horizontalLayout_30">
+                 <item>
+                  <widget class="QRadioButton" name="rgb">
+                   <property name="styleSheet">
+                    <string notr="true">font-Size:15px;</string>
+                   </property>
+                   <property name="text">
+                    <string>RGB</string>
+                   </property>
+                   <property name="checked">
+                    <bool>true</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="gray">
+                   <property name="styleSheet">
+                    <string notr="true">font-Size:15px;</string>
+                   </property>
+                   <property name="text">
+                    <string>GRAY</string>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <widget class="QRadioButton" name="hsv">
+                   <property name="styleSheet">
+                    <string notr="true">font-Size:15px;</string>
+                   </property>
+                   <property name="text">
+                    <string>HSV</string>
+                   </property>
+                  </widget>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_4">
+                <item>
+                 <widget class="QLabel" name="label_4">
+                  <property name="styleSheet">
+                   <string notr="true">font-Size:16px;
+color: rgb(255, 0, 127);
+</string>
+                  </property>
+                  <property name="text">
+                   <string>单次输入</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit">
+                  <property name="styleSheet">
+                   <string>background-color:transparent;
+font-size:16px;
+</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="FBti">
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1#FFb6c1);
+font-Size:16px;</string>
+                  </property>
+                  <property name="text">
+                   <string>选择文件</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_10">
+                <item>
+                 <widget class="QLabel" name="label_10">
+                  <property name="styleSheet">
+                   <string notr="true">font-Size:16px;
+color: rgb(255, 0, 127);
+</string>
+                  </property>
+                  <property name="text">
+                   <string>多次输入</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit1">
+                  <property name="styleSheet">
+                   <string>background-color:transparent;
+font-size:16px;
+</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLineEdit" name="lineEdit2">
+                  <property name="styleSheet">
+                   <string>background-color:transparent;
+font-size:16px;
+</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="FBtsi">
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1#FFb6c1);
+font-Size:16px;</string>
+                  </property>
+                  <property name="text">
+                   <string>选择输入</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="FBtso">
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1#FFb6c1);
+font-Size:16px;</string>
+                  </property>
+                  <property name="text">
+                   <string>选择输出</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_31">
+                <item>
+                 <widget class="QCheckBox" name="zd">
+                  <property name="styleSheet">
+                   <string notr="true">font-Size:18px;</string>
+                  </property>
+                  <property name="text">
+                   <string>自动识别</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btcam">
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1#FFb6c1);
+font-Size:16px;</string>
+                  </property>
+                  <property name="text">
+                   <string>开启摄像头</string>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                  <property name="flat">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="btcamclose">
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1#FFb6c1);
+font-Size:12px;</string>
+                  </property>
+                  <property name="text">
+                   <string>关闭摄像头或视频</string>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                  <property name="flat">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bts">
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1#FFb6c1);
+font-Size:16px;</string>
+                  </property>
+                  <property name="text">
+                   <string>多次识别</string>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                  <property name="flat">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QPushButton" name="bt">
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1#FFb6c1);
+font-Size:16px;</string>
+                  </property>
+                  <property name="text">
+                   <string>单次识别</string>
+                  </property>
+                  <property name="default">
+                   <bool>false</bool>
+                  </property>
+                  <property name="flat">
+                   <bool>false</bool>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <widget class="QGroupBox" name="groupBox_7">
+                <property name="minimumSize">
+                 <size>
+                  <width>500</width>
+                  <height>0</height>
+                 </size>
+                </property>
+                <property name="maximumSize">
+                 <size>
+                  <width>400</width>
+                  <height>16777215</height>
+                 </size>
+                </property>
+                <property name="styleSheet">
+                 <string notr="true">font-Size:18px;</string>
+                </property>
+                <property name="title">
+                 <string/>
+                </property>
+                <layout class="QVBoxLayout" name="verticalLayout_9">
+                 <item>
+                  <widget class="QCheckBox" name="affect">
+                   <property name="styleSheet">
+                    <string notr="true">font-Size:18px;</string>
+                   </property>
+                   <property name="text">
+                    <string>加入人为噪声</string>
+                   </property>
+                   <property name="checked">
+                    <bool>false</bool>
+                   </property>
+                  </widget>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout">
+                   <item>
+                    <widget class="QRadioButton" name="af1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>40</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>40</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>F1</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                     <property name="checked">
+                      <bool>false</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QSlider" name="fa">
+                     <property name="minimumSize">
+                      <size>
+                       <width>320</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>320</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="f1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>50</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>50</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_2">
+                   <item>
+                    <widget class="QRadioButton" name="af2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>40</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>40</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>F2</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QSlider" name="fb">
+                     <property name="minimumSize">
+                      <size>
+                       <width>320</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>320</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="f2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>50</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>50</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                 <item>
+                  <layout class="QHBoxLayout" name="horizontalLayout_18">
+                   <item>
+                    <widget class="QRadioButton" name="af3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>40</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>40</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>F3</string>
+                     </property>
+                     <property name="checkable">
+                      <bool>true</bool>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QSlider" name="fc">
+                     <property name="minimumSize">
+                      <size>
+                       <width>320</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>320</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="orientation">
+                      <enum>Qt::Horizontal</enum>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QLabel" name="f3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>50</width>
+                       <height>0</height>
+                      </size>
+                     </property>
+                     <property name="maximumSize">
+                      <size>
+                       <width>50</width>
+                       <height>16777215</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string/>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </item>
+                </layout>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+        <item>
+         <widget class="QGroupBox" name="groupBox_4">
+          <property name="minimumSize">
+           <size>
+            <width>900</width>
+            <height>0</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>900</width>
+            <height>16777215</height>
+           </size>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">font-Size:20px;</string>
+          </property>
+          <property name="title">
+           <string>识别结果</string>
+          </property>
+          <layout class="QHBoxLayout" name="horizontalLayout_11">
+           <item>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item>
+              <widget class="QLabel" name="result">
+               <property name="minimumSize">
+                <size>
+                 <width>500</width>
+                 <height>400</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>500</width>
+                 <height>400</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:transparent;
+font-size:16px;
+</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="label_2">
+               <property name="minimumSize">
+                <size>
+                 <width>0</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="maximumSize">
+                <size>
+                 <width>16777215</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color:transparent;
+font-size:16px;
+</string>
+               </property>
+               <property name="text">
+                <string>OUTPUT</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <layout class="QHBoxLayout" name="horizontalLayout_6">
+               <item>
+                <widget class="QGroupBox" name="groupBox_2">
+                 <property name="styleSheet">
+                  <string notr="true">font-size:15px;
+</string>
+                 </property>
+                 <property name="title">
+                  <string>模型选择</string>
+                 </property>
+                 <layout class="QVBoxLayout" name="verticalLayout_3">
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_17">
+                    <item>
+                     <widget class="QRadioButton" name="mode1">
+                      <property name="text">
+                       <string>模型1：Retinex</string>
+                      </property>
+                      <property name="checked">
+                       <bool>true</bool>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_16">
+                    <item>
+                     <widget class="QRadioButton" name="mode2">
+                      <property name="text">
+                       <string>模型2：Retinex_Net</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_21">
+                    <item>
+                     <widget class="QRadioButton" name="mode3">
+                      <property name="text">
+                       <string>模型3：直方图均衡化</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_15">
+                    <item>
+                     <widget class="QRadioButton" name="mode4">
+                      <property name="text">
+                       <string>模型4：自适应直方图均衡化</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_5">
+                    <item>
+                     <widget class="QRadioButton" name="mode5">
+                      <property name="text">
+                       <string>模型5：RRD_Net</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLabel" name="label_11">
+                      <property name="styleSheet">
+                       <string notr="true">font-Size:16px;
+color: rgb(255, 0, 127);
+</string>
+                      </property>
+                      <property name="text">
+                       <string>&amp;&amp;训练次数：</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="model5count">
+                      <property name="styleSheet">
+                       <string notr="true">font-Size:16px;
+color: rgb(255, 0, 127);
+</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_19">
+                    <item>
+                     <widget class="QRadioButton" name="mode6">
+                      <property name="text">
+                       <string>模型6：Zero_Reference</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_20">
+                    <item>
+                     <widget class="QRadioButton" name="mode7">
+                      <property name="text">
+                       <string>模型7： Unfolding_Retinex_Net</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                  <item>
+                   <layout class="QHBoxLayout" name="horizontalLayout_22">
+                    <item>
+                     <widget class="QRadioButton" name="yamode">
+                      <property name="text">
+                       <string>本文算法</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QLineEdit" name="yanetpath">
+                      <property name="styleSheet">
+                       <string>background-color:transparent;
+font-size:16px;
+</string>
+                      </property>
+                     </widget>
+                    </item>
+                    <item>
+                     <widget class="QPushButton" name="Fnetmodel">
+                      <property name="styleSheet">
+                       <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1#FFb6c1);
+font-Size:16px;</string>
+                      </property>
+                      <property name="text">
+                       <string>选择文件</string>
+                      </property>
+                     </widget>
+                    </item>
+                   </layout>
+                  </item>
+                 </layout>
+                </widget>
+               </item>
+              </layout>
+             </item>
+            </layout>
+           </item>
+           <item>
+            <widget class="QGroupBox" name="groupBox_3">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="maximumSize">
+              <size>
+               <width>16777215</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">
+font: 9pt &quot;Adobe 楷体 Std R&quot;;
+
+font-Size:14px;</string>
+             </property>
+             <property name="title">
+              <string>评价指标</string>
+             </property>
+             <layout class="QVBoxLayout" name="verticalLayout_4">
+              <item>
+               <widget class="QCheckBox" name="pj">
+                <property name="styleSheet">
+                 <string notr="true"/>
+                </property>
+                <property name="text">
+                 <string>计算评价指标</string>
+                </property>
+                <property name="checked">
+                 <bool>false</bool>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_29">
+                <item>
+                 <widget class="QLabel" name="label_21">
+                  <property name="minimumSize">
+                   <size>
+                    <width>70</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>70</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj1_4">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #fdbfca,stop:1 #fdbfca);</string>
+                  </property>
+                  <property name="text">
+                   <string>原图像</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_22">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string>background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string>处理后</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="label_23">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string>background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string>较上次</string>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_9">
+                <item>
+                 <widget class="QLabel" name="label_9">
+                  <property name="minimumSize">
+                   <size>
+                    <width>70</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>70</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>均值：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj1a">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #fdbfca,stop:1 #fdbfca);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj1b">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pjqh1">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_8">
+                <item>
+                 <widget class="QLabel" name="label_7">
+                  <property name="minimumSize">
+                   <size>
+                    <width>70</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>70</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>信息熵：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj2a">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #fdbfca,stop:1 #fdbfca);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj2b">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pjqh2">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_3">
+                <item>
+                 <widget class="QLabel" name="label_3">
+                  <property name="minimumSize">
+                   <size>
+                    <width>70</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>70</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>PSNR:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj3">
+                  <property name="minimumSize">
+                   <size>
+                    <width>159</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>150</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #fdbfca,stop:1 #fdbfca);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pjqh3">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_12">
+                <item>
+                 <widget class="QLabel" name="label_5">
+                  <property name="minimumSize">
+                   <size>
+                    <width>70</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>70</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>SSIM:</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj4">
+                  <property name="minimumSize">
+                   <size>
+                    <width>159</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>150</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #fdbfca,stop:1 #fdbfca);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pjqh4">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_13">
+                <item>
+                 <widget class="QLabel" name="label_6">
+                  <property name="minimumSize">
+                   <size>
+                    <width>70</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>70</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>标准差：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj5a">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #fdbfca,stop:1 #fdbfca);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj5b">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pjqh5">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+              <item>
+               <layout class="QHBoxLayout" name="horizontalLayout_14">
+                <item>
+                 <widget class="QLabel" name="label_8">
+                  <property name="minimumSize">
+                   <size>
+                    <width>70</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>70</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="text">
+                   <string>平均梯度：</string>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj6a">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #fdbfca,stop:1 #fdbfca);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pj6b">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+                <item>
+                 <widget class="QLabel" name="pjqh6">
+                  <property name="minimumSize">
+                   <size>
+                    <width>75</width>
+                    <height>0</height>
+                   </size>
+                  </property>
+                  <property name="maximumSize">
+                   <size>
+                    <width>75</width>
+                    <height>16777215</height>
+                   </size>
+                  </property>
+                  <property name="styleSheet">
+                   <string notr="true">background:qlineargradient(spread:pad,x1:0,y1:0,x2:1,y2:1,stop:0 #FFb6c1,stop:1 #FFb6c1);</string>
+                  </property>
+                  <property name="text">
+                   <string/>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
